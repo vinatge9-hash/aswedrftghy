@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Niyantri Coffee - Contact</title>
+  <meta name='description' content='Get in touch with Niyantri Coffee. Find our Hyderabad location, hours, and send us a message.'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='bg-amber-50 text-gray-900 transition-all duration-300'>
+  <!-- nav -->
+  <header class='fixed w-full z-40'>
+    <nav class='flex items-center justify-between px-4 py-3 md:px-8 bg-black/20 text-white'>
+      <a href='index.html' class='flex items-center space-x-2 font-semibold text-xl'>
+        <span aria-hidden='true'>☕</span>
+        <span>Niyantri Coffee</span>
+      </a>
+      <ul class='hidden md:flex space-x-6'>
+        <li><a href='index.html' class='hover:underline'>Home</a></li>
+        <li><a href='about.html' class='hover:underline'>About</a></li>
+        <li><a href='menu.html' class='hover:underline'>Menu</a></li>
+        <li><a href='contact.html' class='hover:underline'>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class='pt-28'>
+    <section class='max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8'>
+      <div data-animate>
+        <h1 class='text-3xl font-semibold mb-2'>Contact Us</h1>
+        <p class='text-gray-700'>We’d love to hear from you. Reach out for questions, reservations, or feedback.</p>
+        <dl class='mt-4'>
+          <dt class='font-semibold'>Address</dt>
+          <dd class='text-sm text-gray-700'>Niyantri Coffee, 12-34 Market Street, Secunderabad, Hyderabad, Telangana, India</dd>
+          <dt class='font-semibold mt-2'>Phone</dt>
+          <dd class='text-sm text-gray-700'>+91 40 0000 0000</dd>
+          <dt class='font-semibold mt-2'>Hours</dt>
+          <dd class='text-sm text-gray-700'>Tue–Sun 8:00–20:00</dd>
+        </dl>
+      </div>
+      <div data-animate>
+        <img src="https://images.pexels.com/photos/2305761/pexels-photo-2305761.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt='Map showing Hyderabad area with coffee marker' class='w-full rounded-lg shadow'>
+        <p class='mt-2 text-sm text-gray-600'>Location shown is a placeholder in Hyderabad, Telangana, India.</p>
+      </div>
+    </section>
+
+    <section class='max-w-6xl mx-auto px-4 mt-8' data-animate>
+      <h2 class='text-2xl font-semibold mb-4'>Send us a message</h2>
+      <form action='#' method='post' class='grid grid-cols-1 md:grid-cols-2 gap-4'>
+        <input aria-label='Your name' type='text' placeholder='Your name' class='col-span-1 rounded-md px-3 py-2 bg-white/90'>
+        <input aria-label='Your email' type='email' placeholder='Your email' class='col-span-1 rounded-md px-3 py-2 bg-white/90'>
+        <textarea aria-label='Message' placeholder='Your message' class='md:col-span-2 rounded-md px-3 py-2 bg-white/90' rows='6'></textarea>
+        <button class='md:col-span-2 w-full bg-amber-500 text-white rounded-md px-3 py-2 transition-all duration-300 hover:brightness-110'>Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class='bg-gray-900 text-gray-100 py-12' aria-label='Site Footer'>
+    <div class='max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8'>
+      <div>
+        <h3 class='font-semibold text-xl mb-2'>Niyantri Coffee</h3>
+        <p class='text-sm text-gray-400'>Artisanal espresso and rustic vibes in Hyderabad.</p>
+      </div>
+      <div>
+        <h4 class='font-semibold mb-2'>Quick Links</h4>
+        <ul class='space-y-1 text-sm text-gray-300'>
+          <li><a href='index.html' class='hover:underline'>Home</a></li>
+          <li><a href='about.html' class='hover:underline'>About</a></li>
+          <li><a href='menu.html' class='hover:underline'>Menu</a></li>
+          <li><a href='contact.html' class='hover:underline'>Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class='font-semibold mb-2'>Newsletter</h4>
+        <p class='text-sm text-gray-400 mb-2'>Get updates on new beans and seasonal treats.</p>
+        <form action='#' method='post'>
+          <input aria-label='Email address' type='email' placeholder='Your email' class='w-full rounded-md px-3 py-2 bg-white/90 text-gray-800'>
+          <button class='mt-2 w-full bg-amber-500 text-white rounded-md px-3 py-2 transition-all duration-300 hover:brightness-110'>Join</button>
+        </form>
+      </div>
+    </div>
+    <hr class='my-6 border-gray-700'>
+    <p class='text-center text-sm text-gray-400'>© 2025 Niyantri Coffee. All rights reserved. Hyderabad, Telangana, India.</p>
+  </footer>
+
+  <script>
+    document.body.style.opacity = '0';
+    window.addEventListener('load', () => { document.body.style.opacity = '1'; });
+  </script>
+</body>
+</html>
