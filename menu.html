@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Niyantri Coffee - Menu</title>
+  <meta name='description' content='Explore Niyantri Coffee menu featuring our Signature Espresso, single-origin brews, and rustic pastries.'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='bg-amber-50 text-gray-900 transition-all duration-300'>
+  <!-- nav -->
+  <header class='fixed w-full z-40'>
+    <nav class='flex items-center justify-between px-4 py-3 md:px-8 bg-black/20 text-white'>
+      <a href='index.html' class='flex items-center space-x-2 font-semibold text-xl'>
+        <span aria-hidden='true'>☕</span>
+        <span>Niyantri Coffee</span>
+      </a>
+      <ul class='hidden md:flex space-x-6'>
+        <li><a href='index.html' class='hover:underline'>Home</a></li>
+        <li><a href='about.html' class='hover:underline'>About</a></li>
+        <li><a href='menu.html' class='hover:underline'>Menu</a></li>
+        <li><a href='contact.html' class='hover:underline'>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class='pt-28'>
+    <section class='max-w-6xl mx-auto px-4'>
+      <h1 class='text-3xl font-semibold mb-4'>Menu</h1>
+      <p class='mb-8 text-gray-700'>A curated selection for every coffee journey—crafted in our rustic, artisanal manner.</p>
+      <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+        <!-- Item 1: Signature Espresso -->
+        <article class='bg-white/90 rounded-lg p-6 shadow hover:shadow-xl transition-all duration-300'>
+          <h2 class='text-xl font-semibold mb-2'>Signature Espresso</h2>
+          <p class='text-sm text-gray-700'>Velvety espresso with chocolate and caramel notes, brewed from our secret blend.</p>
+          <div class='mt-3 font-semibold'>₹180</div>
+        </article>
+        <!-- Item 2 -->
+        <article class='bg-white/90 rounded-lg p-6 shadow hover:shadow-xl transition-all duration-300'>
+          <h2 class='text-xl font-semibold mb-2'>Origin Pour-Over</h2>
+          <p class='text-sm text-gray-700'>A bright single-origin pour-over highlighting fruit-forward notes.</p>
+          <div class='mt-3 font-semibold'>₹210</div>
+        </article>
+        <!-- Item 3 -->
+        <article class='bg-white/90 rounded-lg p-6 shadow hover:shadow-xl transition-all duration-300'>
+          <h2 class='text-xl font-semibold mb-2'>House Cold Brew</h2>
+          <p class='text-sm text-gray-700'>Smooth and refreshing, served over ice with a hint of vanilla.</p>
+          <div class='mt-3 font-semibold'>₹190</div>
+        </article>
+        <!-- Item 4 -->
+        <article class='bg-white/90 rounded-lg p-6 shadow hover:shadow-xl transition-all duration-300'>
+          <h2 class='text-xl font-semibold mb-2'>Espresso Macaron</h2>
+          <p class='text-sm text-gray-700'>A pairing of our espresso with a delicate almond macaron.</p>
+          <div class='mt-3 font-semibold'>₹120</div>
+        </article>
+        <!-- Item 5 -->
+        <article class='bg-white/90 rounded-lg p-6 shadow hover:shadow-xl transition-all duration-300'>
+          <h2 class='text-xl font-semibold mb-2'>Pastry & Brew Combo</h2>
+          <p class='text-sm text-gray-700'>A croissant with your choice of espresso or coffee of the day.</p>
+          <div class='mt-3 font-semibold'>₹230</div>
+        </article>
+        <!-- Item 6 -->
+        <article class='bg-white/90 rounded-lg p-6 shadow hover:shadow-xl transition-all duration-300'>
+          <h2 class='text-xl font-semibold mb-2'>Seasonal Special</h2>
+          <p class='text-sm text-gray-700'>Ask about our rotating seasonal blend and pastry duo.</p>
+          <div class='mt-3 font-semibold'>₹200</div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class='bg-gray-900 text-gray-100 py-12' aria-label='Site Footer'>
+    <div class='max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8'>
+      <div>
+        <h3 class='font-semibold text-xl mb-2'>Niyantri Coffee</h3>
+        <p class='text-sm text-gray-400'>Artisanal espresso, rustic vibe, in Hyderabad.</p>
+      </div>
+      <div>
+        <h4 class='font-semibold mb-2'>Quick Links</h4>
+        <ul class='space-y-1 text-sm text-gray-300'>
+          <li><a href='index.html' class='hover:underline'>Home</a></li>
+          <li><a href='about.html' class='hover:underline'>About</a></li>
+          <li><a href='menu.html' class='hover:underline'>Menu</a></li>
+          <li><a href='contact.html' class='hover:underline'>Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class='font-semibold mb-2'>Newsletter</h4>
+        <p class='text-sm text-gray-400 mb-2'>Get updates on new beans and seasonal treats.</p>
+        <form action='#' method='post'>
+          <input aria-label='Email address' type='email' placeholder='Your email' class='w-full rounded-md px-3 py-2 bg-white/90 text-gray-800'>
+          <button class='mt-2 w-full bg-amber-500 text-white rounded-md px-3 py-2 transition-all duration-300 hover:brightness-110'>Join</button>
+        </form>
+      </div>
+    </div>
+    <hr class='my-6 border-gray-700'>
+    <p class='text-center text-sm text-gray-400'>© 2025 Niyantri Coffee. All rights reserved. Hyderabad, Telangana, India.</p>
+  </footer>
+
+  <script>
+    document.body.style.opacity = '0';
+    window.addEventListener('load', () => { document.body.style.opacity = '1'; });
+  </script>
+</body>
+</html>
